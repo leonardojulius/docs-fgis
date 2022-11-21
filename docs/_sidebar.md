@@ -1,4 +1,8 @@
-- Getting started
+- Introduction to GIS
+  
+  - [Coming Soon..](#)
+
+- Installation & Deployment
 
   - [System Requirments](systemrequirements.md)
   - [Installation](Installation-morepages.md)
