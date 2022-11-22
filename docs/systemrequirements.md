@@ -1,16 +1,15 @@
  ###  Scope:
   
   >1. Software And Hardware requirements
-  >2. Installation of required Application
-  <br>
- -PostgreSQL
- <br>
- -QGIS
- <br>
- -FGIS database module
- <br>
- -FGIS mapping module (plugin for QGIS)
   
+  >2. Installation of required Application
+  ```
+    ├── PostgreSQL
+    ├── QGIS
+    ├── Satellite Internet Access
+    ├── FGIS database module
+    └── FGIS mapping module (plugin for QGIS)     
+   ```
   
  <h2>System Requirements</h2>
  
