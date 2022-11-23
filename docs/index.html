@@ -45,7 +45,6 @@
       nav.app-nav li ul {
         min-width: 100px;
       }
-
       #carbonads {
         box-shadow: none !important;
         width: auto !important;
@@ -81,6 +80,7 @@
           '/zh-cn/(.*)':
             'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
         },
+       
         auto2top: true,
         coverpage: false,
         executeScript: true,
@@ -95,6 +95,21 @@
           id: 6,
         },
 
+        plugins: [
+    function pageFooter(hook, vm) {
+      var footer = [
+        '<hr/>',
+        '<footer>',
+        '<span>Maintain by<a href="https://github.com/leonardojulius">Julius Leonardo</a> .</span>',
+        '<span>Proudly published with <a href="https://pages.github.com/" target="_blank">Github Pages</a>.</span>',
+        '</footer>',
+      ].join('');
+
+      hook.afterEach(function (html) {
+        return html + footer;
+      });
+    },
+  ],
         search: [
             '/_sidebar.md', 
            ],
