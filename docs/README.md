@@ -15,6 +15,24 @@
 ## Documentation for eFGIS 2.0
 
 
+
 ?> Welcome to the  documentation of eFGIS, If you are new to this documentation, the table of contents below and in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top left corner.
 
 
+Enhanced Farmland Geographic Information System (eFGIS) is an improved and a better version of the of its predecessor.  Its primary objective is to provide an efficient way of managing parcellary map data and its attributes.  The enhancement includes the following modules;
+
+
+
+```
+    ├── 1. Water Distribution and Delivery
+    ├── 2. Asset Management
+    ├── 3. Natural Calamity Monitoring and Assessment
+    ├── 4. Hazard Map
+    └── 5. Irrigation and Engineering Information
+```
+## Overview – Farmland GIS Methodology
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/16941074/205449235-91627376-be69-4776-bdaf-a89523e6abe6.png" alt="Sublime's custom image"/>
+</p>
